@@ -4,9 +4,9 @@ const { getStreamFromURL } = global.utils;
 module.exports = {
   config: {
     name: "hey",
-    aliases: ["pi"],
+    aliases: [],
     version: "1.0",
-    author: "SiAM",
+    author: "SIFU",
     countDown: 10,
     role: 0,
     shortDescription: {
@@ -33,18 +33,18 @@ module.exports = {
 
 
     try {
-      message.reaction("⏰", event.messageID);
+      message.reaction("⚡", event.messageID);
       const response = await axios.get(`https://simoai-llmapi.onrender.com/pi/generate?prompt=${query}&id=${userID}&apikey=gotohellgays`);
 
       const answer = response.data.answer;
       const audio = response.data.audioUrl;
       const stream = await getStreamFromURL(audio);
-      await message.reaction("✅", event.messageID);
+      await message.reaction("🍓", event.messageID);
 
       if (answer) {
         message.reply(
           {
-            body: `𝙋𝙚𝙧𝙨𝙤𝙣𝙖𝙡 𝙄𝙣𝙩𝙚𝙡𝙡𝙞𝙜𝙚𝙣𝙘𝙚\n\n${answer}`,
+            body: `🍓🍓🍓`,
             attachment: stream
           },
           
@@ -87,18 +87,18 @@ module.exports = {
     const query = encodeURIComponent(args.join(" "));
 
     try {
-      message.reaction("⏰", event.messageID);
+      message.reaction("⚡", event.messageID);
       const response = await axios.get(`https://simoai-llmapi.onrender.com/pi/generate?prompt=${query}&id=${userID}&apikey=gotohellgays`);
 
       const answer = response.data.answer;
       const audio = response.data.audioUrl;
       const stream = await getStreamFromURL(audio);
-     message.reaction("✅", event.messageID);
+     message.reaction("🍓", event.messageID);
 
       if (answer) {
         message.reply(
           {
-            body: `𝙋𝙚𝙧𝙨𝙤𝙣𝙖𝙡 𝙄𝙣𝙩𝙚𝙡𝙡𝙞𝙜𝙚𝙣𝙘𝙚\n\n${answer}`,
+            body: `🍓🍓🍓`,
             attachment: stream
           },
           
