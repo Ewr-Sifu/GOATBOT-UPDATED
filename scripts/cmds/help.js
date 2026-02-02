@@ -125,7 +125,7 @@ module.exports = {
       `┍━━━━━━━━━━━━━━━𒐬\n` +
       ` 𓊈🎀𓊉 ᴛᴏᴛᴀʟ ᴄᴏᴍᴍᴀɴᴅꜱ: ${allCommands.size - 1}\n` +
       ` 𓊈🔑𓊉 ᴘʀᴇꜰɪx: ${prefix}\n` +
-      ` 𓊈👑𓊉 ᴏᴡɴᴇʀ: your name\n` +
+      ` 𓊈👑𓊉 ᴏᴡɴᴇʀ: SiZu BBy 🍓\n` +
       `┕━━━━━━━━━━━━━━━𒐬`;
 
     // Removed attachment property
