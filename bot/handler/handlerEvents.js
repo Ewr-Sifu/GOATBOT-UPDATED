@@ -1,4 +1,4 @@
-//recent mention error fix by Erērious.
+//mention error fix by xenos
 const fs = require("fs-extra");
 const nullAndUndefined = [undefined, null];
 // const { config } = global.GoatBot;
